@@ -1,0 +1,269 @@
+html{
+    font-size: 10px;
+    height: 100%;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-a {
+    margin-left: 20px;
+}
+
+.search-b-head {
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.bs-head {   
+    width: 725px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-form-head {
+    font-size: 2rem;
+}
+
+.a-head:hover {
+    text-decoration: none;
+    color: #262C37;
+}
+
+
+.a-head {
+    font-size: 2rem;
+}
+
+.b-head:hover {
+    background: #DEDEDE;
+    transition: 0.3s;
+}
+
+.b-head1 {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 17px;
+    background: none;
+    transition: 0.3s;
+}
+
+.b-head2 {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 17px;
+    background: none;
+    transition: 0.3s;
+}
+
+.b-head3 {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 17px;
+    background: none;
+    transition: 0.3s;
+}
+
+.b-head:hover {
+   background: #DEDEDE;
+    transition: 0.3s; 
+}
+
+
+
+.b-head4 {
+    height: 50px;
+    width: 135px;
+    border: none;
+    border-radius: 17px;
+    background: none;
+    transition: 0.3s;
+}
+.contact-block {
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: default;
+}
+
+.datas {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-name-of-contacts {
+    padding-left: 40px;
+}
+
+.p-info-contacts {
+    font-size: 3rem;
+    padding-left: 40px;
+}
+
+.map-oficce {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.Map-name {
+    text-align: center;
+    font-size: 5rem;
+    cursor: default;
+}
+
+.vopros {
+    font-size: 4.5rem;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.help-block {
+    width: 100%;
+    cursor: default;
+}
+
+html, body, .help-block {
+    height: 100%;
+}
+.obratka {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.obr {
+    font-size: 3rem;
+}
+
+.font-size-soob {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.sub {
+    width: 250px;
+    height: 75px;
+    border-radius: 25px;
+    border: none;
+    background: #0093ff
+}
+
+.text-area {
+    border: none;
+    border-radius: 25px;
+    background: #DEDEDE
+}
+
+.input-data {
+    border: none;
+    border-bottom: 3px solid;
+}
+
+.margin-left-name {
+    margin-left: 100px;
+}
+
+.margin-left-mail {
+    margin-left: 150px;
+}
+
+.margin-top-data {
+    margin-top: 10px;
+}
+
+
+
+.center-jus {
+    width: 84%;
+    margin: auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px
+}
+
+.soob-center {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.footer {
+    width: 100%;
+    height: 125px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.div-text-icon-footer {
+    display: flex;
+    align-items: center;
+}
+
+.h2-name-of-company-footer {
+    color: white;
+    cursor: default;
+}
+
+.lorem-block-footer {
+    width: 800px;
+}
+
+.p-footer-lorem {
+    color: #9b9b9b;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: default;
+}
+
+.prava-wit {
+    color: white;
+    padding-right: 25px;
+    font-size: 1.7rem;
+    cursor: default;
+}
+
+.polit-prava {
+    color: white;
+    font-size: 1.6rem;
+    padding-right: 25px;
+}
+
+.polit-prava:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.gjlgbcm {
+    cursor: default;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-right: 25px;
+}
+
+.span-footer {
+    color: red;
+    font-size: 1.2rem;
+}
