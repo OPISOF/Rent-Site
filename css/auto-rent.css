@@ -116,7 +116,6 @@ html{
     border-top-right-radius: 18px;
     border-bottom-right-radius: 18px;
 }
-
 .all-block{
     width: 70%;
     height: 1000px;
@@ -143,7 +142,7 @@ html{
 }
 
 .btn-control {
-    width: 200px;
+    width: 208px;
     height: 40px;
     position: absolute;
     bottom: 96px;
@@ -151,6 +150,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: white;
     border: none;
     border-radius: 56px;
     cursor: default;
