@@ -122,13 +122,15 @@ html{
     height: 1000px;
     margin: auto;
     background: #343541;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
 }
 
 .img-block{
     width: 100%;
     height: 1080px;
     padding-top: 32px;
-    background: url('../img/mersedes-rent.jpg');
+    background: url('../img/mersedes-rent.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
 }
