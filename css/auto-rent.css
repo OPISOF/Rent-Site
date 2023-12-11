@@ -143,11 +143,34 @@ html{
 }
 
 .btn-control {
-    width: 176px;
+    width: 200px;
     height: 40px;
-    border: none;
-    border-radius: 56px;
     position: absolute;
     bottom: 96px;
     left: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 56px;
+    cursor: default;
+}
+
+.heart-btn {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.like-btn {
+    font-size: 24px;
+}
+
+.btn-pay {
+    width: 136px;
+    height: 32px;
+    margin-left: 8px;
+    font-size: 1.75rem;
+    border-radius: 50px;
+    background: blue;
+    border: none;
 }
