@@ -120,15 +120,16 @@ html{
     width: 70%;
     height: 1000px;
     margin: auto;
-    background: #343541;
+    background: #ffffff;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
 }
 
 .img-block{
-    width: 100%;
-    height: 1080px;
-    padding-top: 32px;
+    width: 92%;
+    height: 528px;
+    margin: auto;
+    margin-top: 40px;
     background: url('../img/mersedes-rent1.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -144,8 +145,8 @@ html{
     width: 208px;
     height: 40px;
     position: absolute;
-    bottom: 96px;
-    left: 256px;
+    bottom: 88px;
+    left: 312px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,4 +173,7 @@ html{
     border-radius: 50px;
     background: blue;
     border: none;
+}
+.img-div {
+    display: flex;
 }
