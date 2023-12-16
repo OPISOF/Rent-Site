@@ -118,7 +118,6 @@ html{
 }
 .all-block{
     width: 70%;
-    height: 1000px;
     margin: auto;
     background: #ffffff;
     border-top-left-radius: 24px;
@@ -194,6 +193,58 @@ html{
 
 .text-container {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    align-items: center;
     margin-top: 40px;
+}
+
+.salon-block {
+    max-width: 48%;
+    margin-left: 48px;
+    border-radius: 36px;
+}
+
+.complect-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding-top: 48px;
+}
+
+.icon-complect {
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.h3-text {
+    font-size: 24px;
+}
+
+.d2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.d1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul-complect {
+    margin-top: 12px;
+}
+
+.li-complect {
+    font-size: 2rem;
+    margin-top: 24px;
+    overflow-wrap: anywhere;
 }
