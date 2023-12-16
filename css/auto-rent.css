@@ -177,3 +177,23 @@ html{
 .img-div {
     display: flex;
 }
+
+.text-div {
+    width: 40%;
+}
+
+.h2-text {
+    font-size:  3rem;
+    text-align: center;
+}
+
+.p-info {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;    
+    margin-top: 40px;
+}
