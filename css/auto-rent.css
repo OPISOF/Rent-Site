@@ -1,0 +1,389 @@
+html{
+    font-size: 10px;
+    height: 100%;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-a {
+    margin-left: 20px;
+}
+
+.search-b-head {
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.bs-head {   
+    width: 725px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-form-head {
+    font-size: 2rem;
+}
+
+.a-head:hover {
+    text-decoration: none;
+    color: #262C37;
+}
+
+
+.a-head {
+    font-size: 2rem;
+}
+
+.b-head:hover {
+    background: #DEDEDE;
+    transition: 0.3s;
+}
+
+.b-head1 {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 17px;
+    background: none;
+    transition: 0.3s;
+}
+
+.b-head2 {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 17px;
+    background: none;
+    transition: 0.3s;
+}
+
+.b-head3 {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 17px;
+    background: none;
+    transition: 0.3s;
+}
+
+.b-head:hover {
+   background: #DEDEDE;
+    transition: 0.3s; 
+}
+
+.b-head4 {
+    height: 50px;
+    width: 135px;
+    border: none;
+    border-radius: 17px;
+    background: none;
+    transition: 0.3s;
+}
+
+.header-auto{
+    width: 100%;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.a-auto-head{
+    font-size: 2rem;
+}
+
+.btn-auto-head{
+    width: 168px;
+    height: 52px;
+    background: white;
+    border: 4px solid black;
+}
+
+.btn-auto-head-left{
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+}
+
+.btn-auto-head-right{
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.all-block{
+    width: 70%;
+    margin: auto;
+    background: #ffffff;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.img-block{
+    width: 92%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 40px;
+    background: url('../img/mersedes-rent1.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.all-all-block {
+    width: 100%;
+    background: black;
+}
+
+.btn-control {
+    width: 208px;
+    height: 40px;
+    position: absolute;
+    bottom: 88px;
+    left: 312px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: none;
+    border-radius: 56px;
+    cursor: default;
+}
+
+.heart-btn {
+    font-size: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.like-btn {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btn-pay {
+    width: 136px;
+    height: 32px;
+    margin-left: 8px;
+    font-size: 1.75rem;
+    border-radius: 50px;
+    background: blue;
+    border: none;
+}
+.img-div {
+    display: flex;
+}
+
+.text-div {
+    width: 40%;
+}
+
+.h2-text {
+    font-size:  3rem;
+    text-align: center;
+}
+
+.p-info {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.salon-block {
+    max-width: 48%;
+    margin-left: 48px;
+    border-radius: 36px;
+}
+
+.complect-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding-top: 48px;
+}
+
+.icon-complect {
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.h3-text {
+    font-size: 24px;
+}
+
+.d2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.d1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul-complect {
+    margin-top: 12px;
+}
+
+.li-complect {
+    font-size: 2rem;
+    margin-top: 24px;
+    overflow-wrap: anywhere;
+}
+
+.feature-block {
+    width: 100%;
+    height: 592px;
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.li-feature {
+    font-size: 2rem;
+    margin-top: 24px
+}
+
+.div-border {
+    width: 280px;
+    height: 56px;
+    display: flex;
+    border-radius: 24px;
+    background: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.reviews{
+    width: 100%;
+    height: 240px;
+}
+
+.p-rev{
+    margin-left: 100px;
+    font-size: 2rem;
+}
+
+.inp-rev{
+    background: none;
+    border: none;
+    outline:none;
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+}
+
+.btn-to{
+    width: 40px;
+    height: 40px;
+    background: blue;
+    border: none;
+    border-radius: 25%;
+    margin-left: 40px;
+}
+
+.rev-cont{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    height: 125px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-text-icon-footer {
+    display: flex;
+    align-items: center;
+}
+
+.h2-name-of-company-footer {
+    color: white;
+    cursor: default;
+}
+
+.lorem-block-footer {
+    width: 800px;
+}
+
+.p-footer-lorem {
+    color: #9b9b9b;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: default;
+}
+
+.prava-wit {
+    color: white;
+    padding-right: 25px;
+    font-size: 1.7rem;
+    cursor: default;
+}
+
+.polit-prava {
+    color: white;
+    font-size: 1.6rem;
+    padding-right: 25px;
+}
+
+.polit-prava:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.gjlgbcm {
+    cursor: default;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-right: 25px;
+}
+
+.span-footer {
+    color: red;
+    font-size: 1.2rem;
+}
+
+.stars {
+    width: 100%;
+    height: 80px;
+    font-size: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+/*    margin-left: 4px;*/
+    letter-spacing: 4px;
+    cursor: pointer;
+    color: #bac0c9;
+}

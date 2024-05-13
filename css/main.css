@@ -1,0 +1,401 @@
+html{
+    font-size: 10px;
+    height: 100%;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-a {
+    margin-left: 20px;
+}
+
+.search-b-head {
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.bs-head {
+    width: 725px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-form-head {
+    font-size: 2rem;
+}
+
+.a-head:hover {
+    text-decoration: none;
+    color: #262C37;
+}
+
+.c-img { 
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background: url('../img/planet-index1.jpeg');
+    background-size: 400px 400px;
+}
+
+.info {
+    width: 100%;
+    height: 400px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-head {
+    font-size: 2rem;
+}
+
+.b-head:hover {
+    background: #DEDEDE;
+    transition: 0.3s;
+}
+
+.b-head1 {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 17px;
+    background: none;
+    transition: 0.3s;
+}
+
+.b-head2 {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 17px;
+    background: none;
+    transition: 0.3s;
+}
+
+.b-head3 {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 17px;
+    background: none;
+    transition: 0.3s;
+}
+
+.b-head:hover {
+   background: #DEDEDE;
+    transition: 0.3s; 
+}
+
+.btn-a-better {
+    width: 128px;
+    height: 128px;
+    background: url(https://cdn-icons-png.flaticon.com/128/2736/2736918.png);
+    border: none;
+}
+
+.icons-universal-better {
+    width: 500px;
+    height: 128px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a-better {
+    width: 100px;
+    height: 100px;
+    border: none;
+    background: white;
+}
+
+.img-better-auto {
+    transition: 0.3s;
+}
+
+.img-better-auto:hover {
+    background: #c3c3c3;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+
+.img-better-home {
+    transition: 0.3s;
+}
+
+.img-better-ned {
+    background: #6fcdff;
+    border-radius: 40px;
+}
+
+.img-better-home:hover {
+    border-radius: 40px;
+    background: rgb(88, 255, 0);
+    transition: 0.3s;
+}
+
+.p-universal {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.UR-universal {
+    width: 800px;
+    height: 130px;
+    margin: auto;
+}
+
+.text-universal2 {
+    text-align: center;
+	background: linear-gradient(-45deg, #fd004c 16.7%, #fe9000 16.7%, #fe9000 33.4%, #fff020 50.1%, #3edf4b 50.1%, #3edf4b 66.8%, #3363ff 66.8%, #3363ff 83.5%, #b102b7 83.5%);
+	background-size: 300%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 5vw;
+	letter-spacing: -5px;
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 25s ease-in-out infinite;
+	-moz-animation: animated_text 25s ease-in-out infinite;
+	-webkit-animation: animated_text 25s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+
+.p-universal:hover {
+    cursor: default;
+}
+
+.text-universal2:hover {
+    cursor: default;
+}
+
+
+.b-head4 {
+    height: 50px;
+    width: 135px;
+    border: none;
+    border-radius: 17px;
+    background: none;
+    transition: 0.3s;
+}
+
+
+.mobile-block {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    background: blue;
+    align-items: center;
+    justify-content: space-between
+}
+
+html, body, .mobile-block {
+    height: 100%;
+}
+
+html, body, .first-block {
+    height: 100%;
+}
+
+
+
+.first-block {
+    width: 100%;
+}
+
+.img-phone {
+    height: 650px;
+}
+
+.download-info {
+    width: 100%;
+    height: 45%;
+    align-items: center;
+}
+
+.h2-mobile-info {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.p-lorem-mobile-info {
+    color: white;
+    font-size: 3.4rem;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.a-btn-mobile {
+    width: 300px;
+    height: 70px;
+    border-radius: 30px;
+    border: none;
+    font-size: 3rem;
+}
+
+.download-block {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px
+}
+
+.p-top-lorem {
+    margin-top: 20px;
+}
+
+.apple {
+    background: #00b1ff;
+}
+
+.info-download {
+    cursor: default;
+}
+
+.carusel-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html, body, .carusel-block {
+    height: 100%;
+}
+
+.offers-h2 {
+    font-size: 6rem;
+    text-align: center;
+    padding-bottom: 30px;
+    cursor: default;
+}
+
+.foto-offerstext {
+    width: 100%;
+    display: flex;
+}
+
+.di1 {
+    width: 50%;
+    height: 60%;
+}
+
+.di2 {
+    width: calc(50% - 20%);
+    margin-left: 20px;
+}
+
+.di2, .foto-zwei-img{
+    width: 100%;
+}
+
+.margin-top20 {
+    margin-top: 20px;
+}
+
+.t1 {
+    width: 60%;
+}
+
+.di0 {
+    width: 50%;
+}
+
+.di0, .di1 {
+    width: 100%
+}
+
+.p1-di {
+    padding-top: 10px;
+    font-size: 2.4rem;
+    text-align: center;
+    cursor: default;
+}
+
+.span-di {
+    color: gold;
+}
+
+.di-text-block {
+    height: 40%;
+}
+
+.footer {
+    width: 100%;
+    height: 125px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-text-icon-footer {
+    display: flex;
+    align-items: center;
+}
+
+.h2-name-of-company-footer {
+    color: white;
+    cursor: default;
+}
+
+.lorem-block-footer {
+    width: 800px;
+}
+
+.p-footer-lorem {
+    color: #9b9b9b;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: default;
+}
+
+.prava-wit {
+    color: white;
+    padding-right: 25px;
+    font-size: 1.7rem;
+    cursor: default;
+}
+
+.polit-prava {
+    color: white;
+    font-size: 1.6rem;
+    padding-right: 25px;
+}
+
+.polit-prava:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.gjlgbcm {
+    cursor: default;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-right: 25px;
+}
+
+.span-footer {
+    color: red;
+    font-size: 1.2rem;
+}
+
+
