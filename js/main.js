@@ -34,21 +34,35 @@ function onLinkClick4(event){
   document.getElementById('mark').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-// let like = document.querySelector('#like')
-// let good = document.querySelector('#good')
+ let like = document.querySelector('#like')
+ let good = document.querySelector('#good')
 
-// function onClickLike(){
-//     like.addEventListener('onclick', function(){
-//         if (like.classList.contains('fa-regular')) {
-//             like.classList.remove('fa-regular');
-//             like.classList.add('fa-solid')
-//         }
-//         else{
-//             like.classList.remove('fa-solid');
-//             like.classList.add('fa-regular')
-//         }
-//     })
-// }
+ function onClickLike(){
+     like.addEventListener('click', function(){
+         if (like.classList.contains('fa-regular')) {
+             like.classList.remove('fa-regular');
+             like.classList.add('fa-solid')
+         }
+         else{
+             like.classList.remove('fa-solid');
+             like.classList.add('fa-regular')
+         }
+     })
+ }
+onClickLike();
+
+function onClickGood() {
+    good.addEventListener('click', function() {
+        if (good.classList.contains('fa-regular')) {
+            good.classList.remove('fa-regular');
+            good.classList.add('fa-solid');
+        } else {
+            good.classList.remove('fa-solid');
+            good.classList.add('fa-regular');
+        }
+    });
+}
+onClickGood();
 
 let btn_to = document.querySelector('.btn-to');
 let inp_rev = document.querySelector('.inp-rev');
